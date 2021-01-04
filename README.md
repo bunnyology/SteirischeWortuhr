@@ -10,7 +10,7 @@ Sollte man nicht im 1500km Umkreis von Frankfurt wohnen, kann diese Antenne auch
 
 Ich habe versucht, die Elektronik so simpel wie nur Möglich zu halten und auch auf LED Treiber verzichtet. Der Arduino treibt die eingesetzten 5mm LEDs ohne weitere Elektronik. Dafür habe ich Ultrabright LEDs eingesetzt (ca. 14000 mcd bei 20mA) und treibe diese mit 4mA um unter den Limits des Microcontrollers u bleiben. Da jedoch diese Ultrabright LEDs meistens einen sehr engen Abstrahlwinkel haben (was zu einer unregelmäßigen Ausleuchtung führen würde), habe ich die Köpfe der LEDs flach abgeschliffen.
 
-Um die "Produktion" zu vereinfachen, habe ich eine eigene Platine fertigen lassen. Will man aber nur eine einzige Uhr herstellen, kann die Elektronik auch ganz einfach nur verkabelt werden.
+Um die "Produktion" zu vereinfachen, habe ich eine eigene Platine fertigen lassen. Die KiCAD Schematics und PCB Daten sind hier herunterladbar, ebenso die Gerber Daten für die Platinenproduktion. Will man aber nur eine einzige Uhr herstellen, kann die Elektronik auch ganz einfach nur verkabelt werden. Der Verdratungsplan ist recht simpel:
 
 # Bedienung der Wortuhr
 Die Uhr wird über ein 12V Netzteil mit Strom versorgt und startet beim Einstecken des Netzteilsteckers automatisch. Wird während des Einschaltens der Taster gedrückt, startet der Selbstcheck (die Uhr läuft einen 12 Stunden Zyklus schnell durch).
