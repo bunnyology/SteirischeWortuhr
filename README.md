@@ -24,7 +24,9 @@ Sobald ein Zeitpacket empfangen wird, synchronisiert sich die Uhrzeit wieder aut
 
 Die Helligkeit der Anzeige kann in vier Stufen durch kurzes Drücken des Tasters eingestellt werden.
 
+# 3D Druck
 
 Die 3D Modelle und Druckdateien können hier heruntergeladen werden:
+
 https://www.prusaprinters.org/prints/44454-steirische-wort-uhr-styrian-dialect-word-clock
 
