@@ -3,6 +3,8 @@ Wortuhr im steirischen Dialekt (Arduino/3D Druck)
 
 Diese Wortuhr zeigt die aktuelle Uhrzeit auf Steirisch an. Dabei sind nicht nur die Zahlenworte in Mundart gehalten, sondern auch die eigentümliche- und für Nicht-Steirer wohl auch verwirrende Angabe der Uhrzeit ist dem lokalen Sprachgebrauch nachempfunden (14 Uhr 15 wird z.B. als "viertel Drei (!)" angegeben.
 
+![Wortuhr](./assembly-7.jpg)
+
 # Elektronik
 Gesteuert wird die Uhr mit einem Arduino Nano und ein DCF-77 Funkuhrempfänger stellt die Zeit automatisch sekundengenau ein.
 
@@ -11,6 +13,8 @@ Sollte man nicht im 1500km Umkreis von Frankfurt wohnen, kann diese Antenne auch
 Ich habe versucht, die Elektronik so simpel wie nur Möglich zu halten und auch auf LED Treiber verzichtet. Der Arduino treibt die eingesetzten 5mm LEDs ohne weitere Elektronik. Dafür habe ich Ultrabright LEDs eingesetzt (ca. 14000 mcd bei 20mA) und treibe diese mit 4mA um unter den Limits des Microcontrollers u bleiben. Da jedoch diese Ultrabright LEDs meistens einen sehr engen Abstrahlwinkel haben (was zu einer unregelmäßigen Ausleuchtung führen würde), habe ich die Köpfe der LEDs flach abgeschliffen.
 
 Um die "Produktion" zu vereinfachen, habe ich eine eigene Platine fertigen lassen. Die KiCAD Schematics und PCB Daten sind hier herunterladbar, ebenso die Gerber Daten für die Platinenproduktion. Will man aber nur eine einzige Uhr herstellen, kann die Elektronik auch ganz einfach nur verkabelt werden. Der Verdratungsplan ist recht simpel:
+
+![Verdratungsplan](./schematics.png)
 
 # Bedienung der Wortuhr
 Die Uhr wird über ein 12V Netzteil mit Strom versorgt und startet beim Einstecken des Netzteilsteckers automatisch. Wird während des Einschaltens der Taster gedrückt, startet der Selbstcheck (die Uhr läuft einen 12 Stunden Zyklus schnell durch).
