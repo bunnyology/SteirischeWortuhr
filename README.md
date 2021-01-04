@@ -19,9 +19,9 @@ Um die "Produktion" zu vereinfachen, habe ich eine eigene Platine fertigen lasse
 # Bedienung der Wortuhr
 Die Uhr wird über ein 12V Netzteil mit Strom versorgt und startet beim Einstecken des Netzteilsteckers automatisch. Wird während des Einschaltens der Taster gedrückt, startet der Selbstcheck (die Uhr läuft einen 12 Stunden Zyklus schnell durch).
 
-Solange kein Zeitpacket empfangen wird blinkt "GLEI" im Sekundentakt. Sobald eine Synchronisation entdeckt wird (jede volle Minute), erhöht sich das Blinkgeschindigkeit (500ms). Sobald die Zeitinformation empfangen wird (ab Sekunde 20), verdoppelt sich die Bilkgeschindichkeit noch einmal, bis die gesamte Uhrzeit eingelesen wurde. Dann wird die empfangene Uhrzeit angezeigt.
+Solange kein Zeitpacket empfangen wird blinkt "GLEI" im Sekundentakt. Sobald eine Synchronisationssignal erkannt wird (jede volle Minute), erhöht sich das Blinkgeschindigkeit (500ms). Sobald die Zeitinformation empfangen wird (ab Sekunde 20), verdoppelt sich die Blinkgeschwindichkeit noch einmal, bis die gesamte Uhrzeit eingelesen wurde. Dann wird die empfangene Uhrzeit angezeigt.
 
-Hinweis: Das DCF-77 Signal ist recht schwach, und daher die Ausrichtung der Antenne wichtig. Die Uhr solle für einen guten Empfang nach Frankfurt ausgerichtet sein.
+Hinweis: Das DCF-77 Signal ist recht schwach, und daher die Ausrichtung der Antenne wichtig. Die Uhr solle für einen guten Empfang nach Frankfurt ausgerichtet sein (Anzeige in oder gegen Blickrichtung Frankfurt).
 
 Ist ein Empfang nicht möglich, kann die Uhrzeit auch über den Taster eingestellt werden. Dazu muss der Taster 3 Sekunden gedrückt gehalten werden. "ES IS" fängt dann zu blinken an und mit weiteren kurzen Tastendrucks kann die Uhrzeit in 5 Minuten Schritten eingestellt werden. Erneutes 3 Sekunden Drücken speichert die Uhrzeit und "ES IS" leuchtet wieder konstant.
 Sobald ein Zeitpacket empfangen wird, synchronisiert sich die Uhrzeit wieder automatisch.
